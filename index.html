@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="个人作品集 - 关于我、作品、经历与联系方式" />
+  <title>你的名字 · 个人作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== 顶部导航 ===== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">你的名字<span>.</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav-link">关于<span>01</span></a>
+        <a href="#skills" class="nav-link">技能<span>02</span></a>
+        <a href="#work" class="nav-link">作品<span>03</span></a>
+        <a href="#experience" class="nav-link">经历<span>04</span></a>
+        <a href="#contact" class="nav-link">联系<span>05</span></a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="菜单">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow reveal-up">个人作品集 · Portfolio · 2024</p>
+        <h1 class="hero-title reveal-up">
+          你好，我是<br />
+          <em>你的名字</em>
+        </h1>
+        <p class="hero-role reveal-up">一名专注于 <span id="rotating"></span> 的创作者</p>
+        <p class="hero-desc reveal-up">
+          我相信好的作品源于对细节的坚持。这里记录我的项目、技能与一路走来的足迹。
+        </p>
+        <div class="hero-actions reveal-up">
+          <a href="#work" class="btn btn-solid">查看作品 →</a>
+          <a href="#contact" class="btn btn-ghost">联系我</a>
+        </div>
+        <ul class="hero-meta reveal-up">
+          <li><span>所在地</span>中国 · 某城市</li>
+          <li><span>邮箱</span>yourname@example.com</li>
+          <li><span>状态</span>可接项目</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 关于我 ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow">01 · 关于我</p>
+          <h2 class="section-title">About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo reveal-up">
+            <div class="photo-frame">
+              <!-- 替换为你的照片：<img src="portrait.jpg" alt="你的名字" /> -->
+              <div class="photo-placeholder">你的<br />照片</div>
+            </div>
+            <p class="photo-caption">肖像 · Portrait</p>
+          </div>
+          <div class="about-text reveal-up">
+            <h3>热爱设计、代码与一切美好事物的创造者</h3>
+            <p>
+              你好！我是一名充满热情的个人创作者，专注于[你的领域]。我相信优秀的产品来自对细节的坚持，以及对用户与内容本身的深刻理解。
+            </p>
+            <p>
+              过去几年里，我参与了多个从[项目类型]到[项目类型]的项目，积累了从概念到落地的完整经验。工作之外，我喜欢[兴趣爱好]，它们也不断为我的创作带来灵感。
+            </p>
+            <dl class="about-info">
+              <div><dt>姓名</dt><dd>你的名字</dd></div>
+              <div><dt>所在地</dt><dd>中国 · 某城市</dd></div>
+              <div><dt>语言</dt><dd>中文 / English</dd></div>
+              <div><dt>邮箱</dt><dd>yourname@example.com</dd></div>
+            </dl>
+            <a href="#" class="btn btn-solid">下载简历 ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 技能 ===== -->
+    <section class="section section-tint" id="skills">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow">02 · 技能</p>
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <ul class="skills-list">
+          <li class="skill-row reveal-up">
+            <span class="skill-num">01</span>
+            <span class="skill-name">界面 / 视觉设计</span>
+            <span class="skill-tags">Figma · 设计系统 · 原型</span>
+          </li>
+          <li class="skill-row reveal-up">
+            <span class="skill-num">02</span>
+            <span class="skill-name">前端开发</span>
+            <span class="skill-tags">HTML · CSS · JavaScript · Vue</span>
+          </li>
+          <li class="skill-row reveal-up">
+            <span class="skill-num">03</span>
+            <span class="skill-name">后端 / 脚本</span>
+            <span class="skill-tags">Python · Node.js · SQL</span>
+          </li>
+          <li class="skill-row reveal-up">
+            <span class="skill-num">04</span>
+            <span class="skill-name">摄影 / 修图</span>
+            <span class="skill-tags">Lightroom · Photoshop</span>
+          </li>
+          <li class="skill-row reveal-up">
+            <span class="skill-num">05</span>
+            <span class="skill-name">视频剪辑</span>
+            <span class="skill-tags">Premiere · 达芬奇</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 作品集 ===== -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow">03 · 作品集</p>
+          <h2 class="section-title">Selected Work</h2>
+        </div>
+        <div class="work-grid">
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-a"><span>01</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称一</h3>
+                <span class="work-year">2024</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>Web</span><span>Vue</span><span>设计</span></div>
+            </div>
+          </a>
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-b"><span>02</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称二</h3>
+                <span class="work-year">2024</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>App</span><span>Flutter</span></div>
+            </div>
+          </a>
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-c"><span>03</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称三</h3>
+                <span class="work-year">2023</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>AI</span><span>Python</span></div>
+            </div>
+          </a>
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-d"><span>04</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称四</h3>
+                <span class="work-year">2023</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>品牌</span><span>Figma</span></div>
+            </div>
+          </a>
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-e"><span>05</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称五</h3>
+                <span class="work-year">2022</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>摄影</span><span>Lightroom</span></div>
+            </div>
+          </a>
+          <a class="work-card reveal-up" href="#">
+            <div class="work-thumb thumb-f"><span>06</span></div>
+            <div class="work-body">
+              <div class="work-head">
+                <h3>项目名称六</h3>
+                <span class="work-year">2022</span>
+              </div>
+              <p>一句话描述：它解决了什么问题、用了什么技术与思路。</p>
+              <div class="work-tags"><span>数据</span><span>SQL</span></div>
+            </div>
+          </a>
+        </div>
+        <p class="work-more reveal-up">
+          想看更多作品？<a href="#">访问我的 GitHub →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== 经历 ===== -->
+    <section class="section section-tint" id="experience">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow">04 · 经历</p>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal-up">
+            <span class="timeline-date">2023 — 至今</span>
+            <div class="timeline-body">
+              <h3>职位 / 角色</h3>
+              <p class="timeline-org">公司或组织名称</p>
+              <p>负责的工作内容与取得的成果，用一两句话概括。</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal-up">
+            <span class="timeline-date">2021 — 2023</span>
+            <div class="timeline-body">
+              <h3>职位 / 角色</h3>
+              <p class="timeline-org">公司或组织名称</p>
+              <p>负责的工作内容与取得的成果，用一两句话概括。</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal-up">
+            <span class="timeline-date">2017 — 2021</span>
+            <div class="timeline-body">
+              <h3>学历 / 专业</h3>
+              <p class="timeline-org">学校名称</p>
+              <p>主修课程、校园经历与收获。</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal-up">
+            <span class="timeline-date">更早</span>
+            <div class="timeline-body">
+              <h3>起点</h3>
+              <p class="timeline-org">一切开始的地方</p>
+              <p>你的故事从这里讲起。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 联系 ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow">05 · 联系</p>
+          <h2 class="section-title">Get in touch</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal-up">
+            <p class="contact-lead">有想法、合作意向，或只是想打个招呼？欢迎随时联系我。</p>
+            <ul class="contact-list">
+              <li><span>邮箱</span><a href="mailto:yourname@example.com">yourname@example.com</a></li>
+              <li><span>电话</span><a href="tel:+8613800000000">+86 138 0000 0000</a></li>
+              <li><span>社交</span>
+                <span class="contact-socials">
+                  <a href="#">GitHub</a><a href="#">微博</a><a href="#">哔哩哔哩</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form reveal-up" id="contact-form">
+            <div class="form-row">
+              <label>名字<input type="text" name="name" placeholder="你的名字" required /></label>
+              <label>邮箱<input type="email" name="email" placeholder="you@example.com" required /></label>
+            </div>
+            <label>主题<input type="text" name="subject" placeholder="想聊点什么" /></label>
+            <label>留言<textarea name="message" rows="4" placeholder="详细说说…" required></textarea></label>
+            <button type="submit" class="btn btn-solid">发送消息 →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-note">© 2024 你的名字 · 保留所有权利</p>
+      <p class="footer-credit">设计参考 Refero Styles · 纯 HTML / CSS / JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
